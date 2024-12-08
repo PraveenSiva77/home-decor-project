@@ -6,7 +6,12 @@ module.exports = withMT({
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#1E40AF', // Custom primary color
+        'primary-dark': '#1D3557', // Darker shade for hover effects
+      }
+    }
   },
   plugins: [],
 });

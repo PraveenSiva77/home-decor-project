@@ -1,6 +1,7 @@
 import React from 'react'
 import { footerData } from '../database/Data';
 import AlertModal from './AlertModal';
+import { Link } from 'react-router-dom';
 
 import { FaFacebookF } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa6";
@@ -25,7 +26,7 @@ function Footer() {
       <div className='p-16 grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center border-t-2 border-gray-300'>
         <div className='flex flex-col gap-4'>
           <h1 className='text-2xl font-bold'>{'<spectra>'}</h1>
-          <p>
+          <p className='text-gray-700'>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias facere ratione quis soluta dicta nam rem blanditiis quo nulla dolores, veniam omnis harum, reprehenderit est corporis illum nisi magni tempora!
           </p>
           
@@ -63,7 +64,7 @@ function Footer() {
                 {/* Full Subscribe Button for Larger Screens */}
                 <button
                   type='submit'
-                  className='hidden md:block bg-[#172525] text-white px-4 py-1 mr-1 rounded-md transition-colors hover:bg-[#1d3535] focus:ring-2 focus:ring-offset-2 focus:ring-[#172525]'
+                  className='hidden md:block bg-[#172525] text-white px-4 py-1 mr-1 rounded-md transition-colors hover:bg-blue-800 focus:ring-2 focus:ring-offset-2 focus:ring-[#172525]'
                 >
                   Subscribe
                 </button>
@@ -74,19 +75,19 @@ function Footer() {
             <div className='flex flex-col items-center justify-center md:justify-start md:items-start gap-4'>
               <h1 className='ml-2 font-bold'>Follow Us On</h1>
               <div className='flex gap-4'>
-                <div className='w-10 h-10 flex items-center justify-center text-xl rounded-full bg-gray-300 hover:text-blue-500 hover:shadow-xl hover:scale-105'>
+                <div className='w-10 h-10 flex items-center justify-center text-xl rounded-full bg-gray-300 hover:text-blue-800 hover:shadow-xl hover:scale-105'>
                   <FaFacebookF />  
                 </div>
 
-                <div className='w-10 h-10 flex items-center justify-center text-xl rounded-full bg-gray-300 hover:text-blue-500 hover:shadow-xl hover:scale-105'>
+                <div className='w-10 h-10 flex items-center justify-center text-xl rounded-full bg-gray-300 hover:text-blue-800 hover:shadow-xl hover:scale-105'>
                   <FaXTwitter />
                 </div>
 
-                <div className='w-10 h-10 flex items-center justify-center text-xl rounded-full bg-gray-300 hover:text-blue-500 hover:shadow-xl hover:scale-105'>
+                <div className='w-10 h-10 flex items-center justify-center text-xl rounded-full bg-gray-300 hover:text-blue-800 hover:shadow-xl hover:scale-105'>
                   <FaInstagram />
                 </div>
 
-                <div className='w-10 h-10 flex items-center justify-center text-xl rounded-full bg-gray-300 hover:text-blue-500 hover:shadow-xl hover:scale-105'>
+                <div className='w-10 h-10 flex items-center justify-center text-xl rounded-full bg-gray-300 hover:text-blue-800 hover:shadow-xl hover:scale-105'>
                   <FaYoutube />
                 </div>
               </div>
@@ -104,12 +105,9 @@ function Footer() {
                 {
                   item.links.map((link) => (
                     <div key={link.id} className='flex gap-2 items-center justify-center'>
-                      <a 
-                        href={link.path}
-                        className='hover:text-blue-500'
-                      >
+                      <Link to={link.path} className='hover:text-blue-800 text-gray-700'>
                         {link.title}
-                      </a>
+                      </Link>
                     </div>
                   ))
                 }

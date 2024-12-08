@@ -6,9 +6,10 @@ import SlideImg3 from '../assets/img/slider/slide-3.png';
 // Navigation bar Data
 
 import Home from '../pages/Home';
-import WhyUs from '../pages/WhyUs';
+import AboutUs from '../pages/AboutUs';
 import Products from '../pages/Products';
 import ContactUs from '../pages/ContactUs';
+
 
 
 export const navData = [
@@ -18,9 +19,9 @@ export const navData = [
         element: <Home/>,
     },
     {
-        title: 'Why Us',
-        path: '/why-us',
-        element: <WhyUs/>,
+        title: 'About Us',
+        path: '/about-us',
+        element: <AboutUs/>,
     },
     {
         title: 'Products',
@@ -147,6 +148,143 @@ export const testimonialData = [
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
     }
 ];
+
+
+// Team Data
+import TeamImg1 from '../assets/img/team/member-1.png';
+import TeamImg2 from '../assets/img/team/member-2.png';
+import TeamImg3 from '../assets/img/team/member-3.png';
+import TeamImg4 from '../assets/img/team/member-4.png';
+
+export const teamData = [
+    {
+        id: 1,
+        name: 'John Doe',
+        img: TeamImg1,
+        role: 'CEO & Founder',
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+    },
+    {
+        id: 2,
+        name: 'kate Doe',
+        img: TeamImg2,
+        role: 'CO-Founder',
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+    },
+    {
+        id: 3,
+        name: 'Smith John',
+        img: TeamImg3,
+        role: 'Chief Technical Officer',
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+    },
+    {
+        id: 4,
+        name: 'Jane Smith',
+        img: TeamImg4,
+        role: 'Chief Marketing Officer',
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+    }
+];
+
+
+
+
+// Product Data
+import ProductImg1 from '../assets/img/products/product-1.png';
+import ProductImg2 from '../assets/img/products/product-2.png';
+import ProductImg3 from '../assets/img/products/product-3.png';
+import ProductImg4 from '../assets/img/products/product-4.png';
+import ProductImg5 from '../assets/img/products/product-5.png';
+import ProductImg6 from '../assets/img/products/product-6.png';
+import ProductImg7 from '../assets/img/products/product-7.png';
+import ProductImg8 from '../assets/img/products/product-8.png';
+import ProductImg9 from '../assets/img/products/product-9.png';
+import ProductImg10 from '../assets/img/products/product-10.png';
+
+export const productData = [
+    {
+        id: 1,
+        img: ProductImg1,
+        title: 'Product 1',
+        price: 100,
+        rating: 5,
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+    },
+    {
+        id: 2,
+        img: ProductImg2,
+        title: 'Product 2',
+        price: 200,
+        rating: 4,
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+    },
+    {
+        id: 3,
+        img: ProductImg3,
+        title: 'Product 3',
+        price: 300,
+        rating: 3,
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+    },
+    {
+        id: 4,
+        img: ProductImg4,
+        title: 'Product 4',
+        price: 400,
+        rating: 5,
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+    },
+    {
+        id: 5,
+        img: ProductImg5,
+        title: 'Product 5',
+        price: 500,
+        rating: 5,
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+    },
+    {
+        id: 6,
+        img: ProductImg6,
+        title: 'Product 6',
+        price: 600,
+        rating: 2,
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+    },
+    {
+        id: 7,
+        img: ProductImg7,
+        title: 'Product 7',
+        price: 700,
+        rating: 3,
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+    },
+    {
+        id: 8,
+        img: ProductImg8,
+        title: 'Product 8',
+        price: 800,
+        rating: 5,
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+    },
+    {
+        id: 9,
+        img: ProductImg9,
+        title: 'Product 9',
+        price: 900,
+        rating: 1,
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+    },
+    {
+        id: 10,
+        img: ProductImg10,
+        title: 'Product 10',
+        price: 1000,
+        rating: 3,
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+    },
+];
+
 
 
 // Footer Data
