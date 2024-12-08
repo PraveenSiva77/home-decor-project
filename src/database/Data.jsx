@@ -14,22 +14,22 @@ import ContactUs from '../pages/ContactUs';
 export const navData = [
     {
         title: 'Home',
-        path: '/',
+        path: '/home-decor-project/',
         element: <Home/>,
     },
     {
         title: 'Why Us',
-        path: '/why-us',
+        path: '/home-decor-project/why-us',
         element: <WhyUs/>,
     },
     {
         title: 'Products',
-        path: '/products',
+        path: '/home-decor-project/products',
         element: <Products/>,
     },
     {
         title: 'Contact Us',
-        path: '/contact-us',
+        path: '/home-decor-project/contact-us',
         element: <ContactUs/>,
     }
 ];
