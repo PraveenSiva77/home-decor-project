@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-slider > .slick-prev, .slick-slider > .slick-next {
+    z-index: 100;
+
+    @media (max-width: 768px) {
+        display: none !important;
+    }
+}
+
+.slick-slider > .slick-prev::before, .slick-slider > .slick-next::before {
+    font-size: 2rem;
+    color: #172525;
+}

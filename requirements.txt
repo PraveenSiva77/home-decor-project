@@ -1,0 +1,8 @@
+npm i react-router-dom
+npm i react-icons
+npm i @material-tailwind/react
+npm i react-slick --save
+npm install slick-carousel --save
+
+# github pages
+npm install gh-pages --save-dev
